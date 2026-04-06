@@ -10,6 +10,7 @@
 
 body {
   min-height: 100vh;
+  /* background: #f3f0ef; */
 }
 a {
   text-decoration: none;
@@ -20,6 +21,9 @@ a {
   width: 80%;
 }
 
+img {
+  cursor: pointer;
+}
 :root {
   --color-link: #49557e;
   --color-white: #ffffff;

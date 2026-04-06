@@ -42,6 +42,7 @@
   border-bottom: 2px solid tomato;
   transition: 0.2s ease;
   color: tomato;
+  font-size: 20px;
 }
 
 .navbar-search-icon {
