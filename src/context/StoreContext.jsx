@@ -17,12 +17,16 @@ const StoreContextProvider = (props) => {
         }
     }
 
-    const removeItemFromBox = () => {
+    const removeItemFromBox = (itemId) => {
 
     }
 
     const contextValue = {
-        food_list
+        food_list,
+        itemBox,
+        setItemBox,
+        addItemInBox,
+        removeItemFromBox
     }
     return (
         <StoreContext.Provider value={contextValue}>

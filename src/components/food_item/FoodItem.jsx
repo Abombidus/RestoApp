@@ -1,12 +1,15 @@
-import { useState } from "react"
+import { useContext, useState } from "react"
 import { assets } from "../../assets/frontend_assets/assets"
 import { TiPlus } from "react-icons/ti"
 import { FaCirclePlus } from "react-icons/fa6"
 import { FaCircleMinus } from "react-icons/fa6"
 import "./foodItem.css"
+import { StoreContext } from "../../context/StoreContext"
 
 const FoodItem = ({ id, name, price, description, image }) => {
     const [itemCount, setItemCount] = useState(0)
+
+    const { itemBox, addItemInBox, removeItemFromBox } = useContext(StoreContext)
 
     return (
         <div className="food-item">
