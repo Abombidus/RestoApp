@@ -5,42 +5,26 @@
   margin: 0;
   box-sizing: border-box;
   list-style: none;
-  font-family: "Outfit", sans-serif;
+  font-family: "Outfit";
 }
 
 body {
   min-height: 100vh;
-  /* background: #f3f0ef; */
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
 .app {
-  margin: auto;
   width: 80%;
+  margin: auto;
 }
 
-img {
-  cursor: pointer;
+html::-webkit-scrollbar {
+  display: none;
 }
-:root {
-  --color-link: #49557e;
-  --color-white: #ffffff;
-  --color-link-hover: #fff4f2;
-  --color-btn01: #747474;
-  --color-text-menu1: #262626;
-  --color-text-menu-p: #808080;
-  --color-hr: #e2e2e2;
-  --color-shadow1: #00000015;
-}
-
-button,
-li {
-  cursor: pointer;
-}
-
-@keyframes fadeIn {
+@keyframes fade-In {
   0% {
     opacity: 0;
   }

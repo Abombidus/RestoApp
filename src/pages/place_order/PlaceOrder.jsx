@@ -1,4 +1,4 @@
-import "./placeOrder.css"
+import './palceOrder.css'
 
 const PlaceOrder = () => {
     return (

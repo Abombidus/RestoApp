@@ -1,40 +1,39 @@
 .header {
-  background-image: url("../../../public/header_img.png");
+  background-image: url("/public/header_img.png");
   background-repeat: no-repeat;
-  position: relative;
-  height: 34vw;
   margin: 30px auto;
+  height: 34vw;
   background-size: contain;
+  position: relative;
 }
 
-.header-content {
-  animation: fadeIn 3s ease-in;
+.header-contents {
   position: absolute;
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 1.5vw;
   max-width: 50%;
+  animation: fade-In 3s;
   bottom: 10%;
   left: 6vw;
 }
 
-.header-content h2 {
-  color: var(--color-white);
+.header-contents h2 {
   font-weight: 500;
+  color: white;
   font-size: max(4.5vw, 22px);
 }
-
-.header-content p {
+.header-contents p {
+  color: white;
   font-size: 1vw;
-  color: var(--color-white);
 }
-.header-content button {
-  border: none;
-  color: var(--color-btn01);
-  font-weight: 500;
+.header-contents button {
   padding: 1vw 2.3vw;
-  background: var(--color-white);
+  background: white;
   font-size: max(1vw, 13px);
   border-radius: 50px;
+  color: #747474;
+  border: none;
+  font-weight: 500;
 }
