@@ -4,27 +4,31 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  list-style: none;
   font-family: "Outfit";
 }
 
 body {
   min-height: 100vh;
 }
-
 a {
   text-decoration: none;
   color: inherit;
 }
+
 .app {
   width: 80%;
   margin: auto;
 }
 
-html::-webkit-scrollbar {
-  display: none;
+:root {
+  --color-one: #49557e;
+  --color-two: #747474;
+  --color-three: #262626;
+  --color-four: #808080;
+  --color-five: #e2e2e2;
 }
-@keyframes fade-In {
+
+@keyframes fade-in {
   0% {
     opacity: 0;
   }

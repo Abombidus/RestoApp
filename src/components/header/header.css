@@ -1,5 +1,5 @@
 .header {
-  background-image: url("/public/header_img.png");
+  background-image: url(/public/header_img.png);
   background-repeat: no-repeat;
   margin: 30px auto;
   height: 34vw;
@@ -14,7 +14,7 @@
   align-items: start;
   gap: 1.5vw;
   max-width: 50%;
-  animation: fade-In 3s;
+  animation: fade-in 3s;
   bottom: 10%;
   left: 6vw;
 }
@@ -24,16 +24,18 @@
   color: white;
   font-size: max(4.5vw, 22px);
 }
+
 .header-contents p {
   color: white;
   font-size: 1vw;
 }
+
 .header-contents button {
   padding: 1vw 2.3vw;
   background: white;
   font-size: max(1vw, 13px);
-  border-radius: 50px;
-  color: #747474;
+  color: var(--color-two);
   border: none;
+  border-radius: 50px;
   font-weight: 500;
 }
